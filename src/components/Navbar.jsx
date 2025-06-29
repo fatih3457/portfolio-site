@@ -38,7 +38,7 @@ function Navbar({ scrollToSection }) {
 
         <li>
           <a
-            href="/cvFatih.pdf"
+            href="/portfolio-site/cvFatih.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-200 transition duration-300"

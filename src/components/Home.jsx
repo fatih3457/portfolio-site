@@ -1,11 +1,13 @@
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import profilImg from '/src/assets/profil.jpeg'; // 👈 Görseli import edin
+
 
 function Home({ scrollToSection, triggerAnimation }) {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-gray-100 flex items-center justify-center">
       <div className="text-center">
         <img
-          src="/src/assets/profil.jpeg"
+          src={profilImg}
           alt="Profil Fotoğrafım"
           className={`w-60 h-60 rounded-full mx-auto mb-6 shadow-md ${
             triggerAnimation ? 'animate-bounce' : ''

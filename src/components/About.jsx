@@ -1,3 +1,6 @@
+import about2Img from '/src/assets/about2.jpeg';
+
+
 function About({ triggerAnimation }) {
     return (
         <div className="min-h-screen bg-gray-100 flex items-center justify-center">
@@ -6,7 +9,7 @@ function About({ triggerAnimation }) {
                     }`}
             >
                 <img
-                    src="/src/assets/about2.jpeg"
+                    src={about2Img}
                     alt="Hakkımda Resmi"
                     className="w-96 h-96 rounded-lg object-cover"
                 />
