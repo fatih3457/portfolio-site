@@ -19,7 +19,7 @@ function Projects({ triggerAnimation }) {
               Teknolojiler: ReactJS, Vite, Tailwind CSS, JavaScript
             </p>
             <a
-              href="https://github.com/[kullanıcıadın]/[repo-adı]"
+              href="https://github.com/fatih3457/portfolio-site"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-block text-blue-600 hover:underline"
