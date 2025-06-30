@@ -5,13 +5,13 @@ function Contact({ triggerAnimation }) {
 
   if (state.succeeded) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center px-2">
         <div
-          className={`max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg text-center ${
+          className={`w-full max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-lg text-center ${
             triggerAnimation ? 'animate-slide-up' : ''
           }`}
         >
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Mesaj Gönderildi!</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Mesaj Gönderildi!</h2>
           <p className="text-gray-600">
             Mesajınızı aldım, en kısa sürede size geri döneceğim. Teşekkürler!
           </p>
@@ -21,13 +21,13 @@ function Contact({ triggerAnimation }) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-2">
       <div
-        className={`w-[900px] h-[650px] mx-auto bg-white p-8 pt-6 rounded-lg shadow-lg ${
+        className={`w-full max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto bg-white p-4 sm:p-6 md:p-8 pt-6 rounded-lg shadow-lg ${
           triggerAnimation ? 'animate-slide-up' : ''
         }`}
       >
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">İletişim</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">İletişim</h2>
         <p className="text-gray-600 mb-4">
           Benimle iletişime geçmek isterseniz, aşağıdaki bilgileri kullanabilirsiniz:
         </p>
@@ -35,13 +35,10 @@ function Contact({ triggerAnimation }) {
           <p className="text-gray-700">
             <span className="font-semibold">E-posta:</span> fatihozcan90@outlook.com
           </p>
-          {/* <p className="text-gray-700">
-            <span className="font-semibold">Telefon:</span> 
-          </p> */}
           <p className="text-gray-700">
             Veya sosyal medya üzerinden bana ulaşabilirsiniz:
           </p>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-4">
             <a
               href="https://github.com/fatih3457"
               target="_blank"
@@ -68,7 +65,7 @@ function Contact({ triggerAnimation }) {
             </a>
           </div>
         </div>
-        <h3 className="text-xl font-semibold text-gray-700 mb-4">
+        <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-4">
           Bana Mesaj Gönderin
         </h3>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -107,7 +104,7 @@ function Contact({ triggerAnimation }) {
           <button
             type="submit"
             disabled={state.submitting}
-            className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+            className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300 w-full sm:w-auto"
           >
             Gönder
           </button>

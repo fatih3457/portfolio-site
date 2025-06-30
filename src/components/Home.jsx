@@ -1,49 +1,48 @@
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import profilImg from '/src/assets/profil.jpeg'; // 👈 Görseli import edin
-
+import profilImg from '/src/assets/profil.jpeg';
 
 function Home({ scrollToSection, triggerAnimation }) {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-gray-100 flex items-center justify-center">
-      <div className="text-center">
+    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-gray-100 flex items-center justify-center px-2">
+      <div className="text-center w-full">
         <img
           src={profilImg}
           alt="Profil Fotoğrafım"
-          className={`w-60 h-60 rounded-full mx-auto mb-6 shadow-md ${
+          className={`w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-full mx-auto mb-4 sm:mb-6 shadow-md ${
             triggerAnimation ? 'animate-bounce' : ''
           }`}
         />
         <div
-          className={`bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto ${
+          className={`bg-white p-4 sm:p-6 rounded-lg shadow-lg max-w-xs sm:max-w-md md:max-w-lg mx-auto ${
             triggerAnimation ? 'animate-slide-up' : ''
           }`}
         >
           <h1
-            className={`text-5xl font-bold text-blue-900 mb-4 ${
+            className={`text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 mb-2 sm:mb-4 ${
               triggerAnimation ? 'animate-slide-up' : ''
             }`}
           >
             Fatih Özcan
           </h1>
           <p
-            className={`text-4xl font-semibold text-blue-800 mb-2 ${
+            className={`text-xl sm:text-2xl md:text-4xl font-semibold text-blue-800 mb-1 sm:mb-2 ${
               triggerAnimation ? 'animate-slide-up animation-delay-200' : ''
             }`}
           >
             FullStack Developer
           </p>
           <p
-            className={`text-3xl font-semibold text-blue-600 mb-2 ${
+            className={`text-lg sm:text-2xl md:text-3xl font-semibold text-blue-600 mb-1 sm:mb-2 ${
               triggerAnimation ? 'animate-slide-up animation-delay-700' : ''
             }`}
           >
             JAVA || SPRING BOOT || REACTJS
           </p>
         </div>
-        <div className="mt-6 flex space-x-4 justify-center">
+        <div className="mt-4 sm:mt-6 flex flex-wrap gap-3 sm:gap-4 justify-center">
           <button
             onClick={() => scrollToSection('projects')}
-            className={`bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300 ${
+            className={`bg-blue-600 text-white py-2 px-4 sm:px-6 rounded-lg hover:bg-blue-700 transition duration-300 ${
               triggerAnimation ? 'animate-fade-in' : ''
             }`}
           >

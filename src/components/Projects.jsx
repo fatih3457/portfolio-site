@@ -1,21 +1,23 @@
 function Projects({ triggerAnimation }) {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-2">
       <div
-        className={`max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg ${
+        className={`w-full max-w-4xl bg-white p-4 md:p-8 rounded-lg shadow-lg ${
           triggerAnimation ? 'animate-slide-up' : ''
         }`}
       >
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Projeler, Çalışmalar, Pratikler</h2>
-        <div className="space-y-6">
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 text-center">
+          Projeler, Çalışmalar, Pratikler
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">
               Portföy Sitesi
             </h3>
-            <p className="text-gray-600 mb-2">
+            <p className="text-gray-600 mb-2 text-sm md:text-base">
               ReactJS ve Tailwind CSS ile geliştirdiğim tek sayfa bir portföy sitesi. Bu proje, frontend becerilerimi sergilemek için tasarlandı.
             </p>
-            <p className="text-gray-500 italic">
+            <p className="text-gray-500 italic text-xs md:text-sm">
               Teknolojiler: ReactJS, Vite, Tailwind CSS, JavaScript
             </p>
             <a
@@ -27,14 +29,14 @@ function Projects({ triggerAnimation }) {
               GitHub’da Gör
             </a>
           </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">
               Java Pratikleri
             </h3>
-            <p className="text-gray-600 mb-2">
+            <p className="text-gray-600 mb-2 text-sm md:text-base">
               Java öğrenirken yaptığım projeler
             </p>
-            <p className="text-gray-500 italic">
+            <p className="text-gray-500 italic text-xs md:text-sm">
               Teknolojiler: Java
             </p>
             <a
@@ -46,14 +48,14 @@ function Projects({ triggerAnimation }) {
               GitHub’da Gör
             </a>
           </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">
               JavaScript Pratikleri
             </h3>
-            <p className="text-gray-600 mb-2">
+            <p className="text-gray-600 mb-2 text-sm md:text-base">
               JavaScript öğrenirken yaptığım projeler
             </p>
-            <p className="text-gray-500 italic">
+            <p className="text-gray-500 italic text-xs md:text-sm">
               Teknolojiler: Javascript, CSS, HTML
             </p>
             <a
@@ -65,14 +67,14 @@ function Projects({ triggerAnimation }) {
               GitHub’da Gör
             </a>
           </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">
               ReactJS Pratikleri
             </h3>
-            <p className="text-gray-600 mb-2">
+            <p className="text-gray-600 mb-2 text-sm md:text-base">
               ReactJS öğrenirken yaptığım projeler
             </p>
-            <p className="text-gray-500 italic">
+            <p className="text-gray-500 italic text-xs md:text-sm">
               Teknolojiler: Javascript, CSS, HTML
             </p>
             <a
@@ -84,14 +86,14 @@ function Projects({ triggerAnimation }) {
               GitHub’da Gör
             </a>
           </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">
               Bootstrap Medium Clone
             </h3>
-            <p className="text-gray-600 mb-2">
+            <p className="text-gray-600 mb-2 text-sm md:text-base">
               Bootstrap öğrenirken yaptığım proje-clone
             </p>
-            <p className="text-gray-500 italic">
+            <p className="text-gray-500 italic text-xs md:text-sm">
               Teknolojiler: Javascript, CSS, HTML
             </p>
             <a
