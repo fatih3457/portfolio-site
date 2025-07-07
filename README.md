@@ -1,8 +1,37 @@
-# React + Vite
+# 👨‍💻 Fatih Özcan | Kişisel Portföy Sitesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, yazılım geliştirici olarak yaptığım çalışmaları, becerilerimi ve bağlantılarımı sergilemek üzere hazırlanmış kişisel portföy sitemdir. ReactJS ve Tailwind CSS kullanılarak modern ve responsive (mobil uyumlu) olarak geliştirilmiştir.
 
-Currently, two official plugins are available:
+🔗 Canlı Görüntüle: [fatih3457.github.io/portfolio-site](https://fatih3457.github.io/portfolio-site)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🧩 Özellikler
+
+- Hakkımda bölümü
+- Projeler kart yapısıyla listeleniyor
+- LinkedIn, GitHub ve X bağlantıları
+- Butonla çalışmalar kısmına kaydırma (scroll-to-section)
+- Mobil uyumlu tasarım (responsive)
+- Vite ile hızlı geliştirme ortamı
+- Animasyonlu geçişler (Tailwind + keyframes)
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- ReactJS
+- Vite
+- Tailwind CSS
+- React Icons
+- Animate.css (veya custom Tailwind animasyonları)
+
+---
+
+## ⚙️ Kurulum
+
+```bash
+git clone https://github.com/fatih3457/portfolio-site.git
+cd portfolio-site
+npm install
+npm run dev
