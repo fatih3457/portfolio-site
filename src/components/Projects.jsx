@@ -29,6 +29,36 @@ function Projects({ triggerAnimation }) {
               GitHub’da Gör
             </a>
           </div>
+           <div className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">
+              📚 Library Management System
+            </h3>
+            <p className="text-gray-600 mb-2 text-sm md:text-base">
+              Java Spring Boot ile backend ve ReactJS ile frontend geliştirdiğim tam yığın (FullStack) bir kütüphane uygulaması.
+              Kitap ekleme, silme, güncelleme, arama ve sayfalama özellikleri içerir.
+            </p>
+            <p className="text-gray-500 italic text-xs md:text-sm">
+              Teknolojiler: Java, Spring Boot, ReactJS, Tailwind, Axios
+            </p>
+            <div className="flex flex-wrap gap-3 mt-2">
+              <a
+                href="https://github.com/fatih3457/library-api"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline text-sm"
+              >
+                Backend GitHub
+              </a>
+              <a
+                href="https://github.com/fatih3457/library-frontend"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-600 hover:underline text-sm"
+              >
+                Frontend GitHub
+              </a>
+            </div>
+          </div>
           <div className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md">
             <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">
               Portföy Sitesi
