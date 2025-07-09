@@ -97,21 +97,54 @@ function Navbar({ scrollToSection, darkMode, setDarkMode }) {
 
       {/* Mobil Menü */}
       {menuOpen && (
-        <div className="md:hidden bg-blue-600 dark:bg-gray-800 px-4 pt-2 pb-4 text-white space-y-2">
-          <button onClick={() => { scrollToSection('home'); setMenuOpen(false); }}>{t('navbar.home')}</button>
-          <button onClick={() => { scrollToSection('about'); setMenuOpen(false); }}>{t('navbar.about')}</button>
-          <button onClick={() => { scrollToSection('projects'); setMenuOpen(false); }}>{t('navbar.projects')}</button>
-          <button onClick={() => { scrollToSection('contact'); setMenuOpen(false); }}>{t('navbar.contact')}</button>
-          <a
-            href="/portfolio-site/cvFatih.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => setMenuOpen(false)}
-          >
-            {t('navbar.cv')}
-          </a>
-        </div>
-      )}
+  <div className="md:hidden absolute top-full left-0 w-full bg-blue-600 dark:bg-gray-800 px-4 py-4 z-20 text-white space-y-2 shadow-lg">
+    <button
+      onClick={() => {
+        scrollToSection('home');
+        setMenuOpen(false);
+      }}
+      className="block w-full text-left px-2 py-2 hover:bg-blue-700 dark:hover:bg-gray-700 rounded"
+    >
+      {t('navbar.home')}
+    </button>
+    <button
+      onClick={() => {
+        scrollToSection('about');
+        setMenuOpen(false);
+      }}
+      className="block w-full text-left px-2 py-2 hover:bg-blue-700 dark:hover:bg-gray-700 rounded"
+    >
+      {t('navbar.about')}
+    </button>
+    <button
+      onClick={() => {
+        scrollToSection('projects');
+        setMenuOpen(false);
+      }}
+      className="block w-full text-left px-2 py-2 hover:bg-blue-700 dark:hover:bg-gray-700 rounded"
+    >
+      {t('navbar.projects')}
+    </button>
+    <button
+      onClick={() => {
+        scrollToSection('contact');
+        setMenuOpen(false);
+      }}
+      className="block w-full text-left px-2 py-2 hover:bg-blue-700 dark:hover:bg-gray-700 rounded"
+    >
+      {t('navbar.contact')}
+    </button>
+    <a
+      href="/portfolio-site/cvFatih.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block w-full text-left px-2 py-2 hover:bg-blue-700 dark:hover:bg-gray-700 rounded"
+      onClick={() => setMenuOpen(false)}
+    >
+      {t('navbar.cv')}
+    </a>
+  </div>
+)}
     </nav>
   );
 }

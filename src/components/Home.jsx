@@ -1,9 +1,11 @@
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import profilImg from '/src/assets/profil.jpeg';
+import { useTranslation } from 'react-i18next';
 
 function Home({ scrollToSection, triggerAnimation }) {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center px-4">
+     
       <div className="text-center w-full">
         {/* Profil Görseli */}
         <img
@@ -41,11 +43,11 @@ function Home({ scrollToSection, triggerAnimation }) {
         <div className="mt-6 flex flex-wrap gap-4 justify-center">
           {/* Buton */}
           <button
-            onClick={() => scrollToSection('projects')}
-            className="bg-blue-600 dark:bg-blue-700 text-white py-2 px-5 rounded-lg hover:scale-105 hover:shadow-lg transform transition-all duration-300"
-          >
-            Çalışmalarımı Gör
-          </button>
+  onClick={() => scrollToSection('projects')}
+  className="bg-blue-600 dark:bg-blue-700 text-white py-2 px-5 rounded-lg hover:scale-105 hover:shadow-lg transform transition-all duration-300"
+>
+  {t('home.button')}
+</button>
 
           {/* Sosyal Medya */}
           <div className="flex gap-3 mt-2">

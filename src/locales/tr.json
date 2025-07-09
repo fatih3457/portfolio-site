@@ -83,8 +83,6 @@
     }
   ]
 
-
-
   },
  "contact": {
   "title": "İletişim",
@@ -102,4 +100,5 @@
 "footer": {
   "rights": "Tüm hakları saklıdır."
 }
+
 }
