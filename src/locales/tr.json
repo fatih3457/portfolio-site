@@ -1,0 +1,105 @@
+{
+
+  "navbar": {
+  "home": "Ana Sayfa",
+  "about": "Hakkımda",
+  "projects": "Projeler",
+  "contact": "İletişim",
+  "cv": "CV"
+  },  
+  "home": {
+    "name": "Fatih Özcan",
+    "title": "FullStack Developer",
+    "skills": "JAVA || SPRING BOOT || REACTJS",
+    "button": "Çalışmalarımı Gör"
+  },
+  "about": {
+  "paragraphs": [
+    "Bilgisayar Programcılığı ve Yönetim Bilişim Sistemleri mezunuyum.",
+    "Yeni teknolojileri öğrenmeye istekli, analitik düşünme becerilerine sahip bir Yazılım Geliştiricisisi olmayı hedefliyorum.",
+    "Java, Spring Boot ve ReactJS konularında kendimi sürekli geliştiriyorum.",
+    "Takım çalışmasına uygun, güçlü iletişim becerilerine sahip, sürekli öğrenmeye açık ve gelişime odaklanmış biri olarak yazılım sektöründe değer katmayı hedefliyorum."
+  ]
+},
+  "projects": {
+  "title": "Projeler, Çalışmalar, Pratikler",
+  "items": [
+    {
+      "title": "Java & Spring Boot ile Basit REST API",
+      "description": "Bu projede Java ve Spring Boot kullanarak temel CRUD işlemlerini gerçekleştiren bir REST API geliştirdim.",
+      "tech": "Teknolojiler: Java 17, Spring Boot, H2 Database, Maven",
+      "links": [
+        { "label": "GitHub’da Gör", "url": "https://github.com/fatih3457/springboot-person-api" }
+      ]
+    },
+    {
+      "title": "📚 Library Management System",
+      "description": "Java Spring Boot ile backend ve ReactJS ile frontend geliştirdiğim tam yığın (FullStack) bir kütüphane uygulaması. Kitap ekleme, silme, güncelleme, arama ve sayfalama özellikleri içerir.",
+      "tech": "Teknolojiler: Java, Spring Boot, ReactJS, Tailwind, Axios",
+      "links": [
+        { "label": "Backend GitHub", "url": "https://github.com/fatih3457/library-api" },
+        { "label": "Frontend GitHub", "url": "https://github.com/fatih3457/library-frontend" }
+      ]
+    },
+    {
+      "title": "Portföy Sitesi",
+      "description": "ReactJS ve Tailwind CSS ile geliştirdiğim tek sayfa bir portföy sitesi. Bu proje, frontend becerilerimi sergilemek için tasarlandı.",
+      "tech": "Teknolojiler: ReactJS, Vite, Tailwind CSS, JavaScript",
+      "links": [
+        { "label": "GitHub’da Gör", "url": "https://github.com/fatih3457/portfolio-site" }
+      ]
+    },
+    {
+      "title": "Java Pratikleri",
+      "description": "Java öğrenirken yaptığım projeler",
+      "tech": "Teknolojiler: Java",
+      "links": [
+        { "label": "GitHub’da Gör", "url": "https://github.com/fatih3457/java-practices" }
+      ]
+    },
+    {
+      "title": "JavaScript Pratikleri",
+      "description": "JavaScript öğrenirken yaptığım projeler",
+      "tech": "Teknolojiler: JavaScript, CSS, HTML",
+      "links": [
+        { "label": "GitHub’da Gör", "url": "https://github.com/fatih3457/js-projects" }
+      ]
+    },
+    {
+      "title": "ReactJS Pratikleri",
+      "description": "ReactJS öğrenirken yaptığım projeler",
+      "tech": "Teknolojiler: ReactJS, CSS, HTML",
+      "links": [
+        { "label": "GitHub’da Gör", "url": "https://github.com/fatih3457/react-Projects" }
+      ]
+    },
+    {
+      "title": "Bootstrap Medium Clone",
+      "description": "Bootstrap öğrenirken yaptığım proje-clone",
+      "tech": "Teknolojiler: JavaScript, CSS, HTML",
+      "links": [
+        { "label": "GitHub’da Gör", "url": "https://github.com/fatih3457/bootstrap-medium-clone" }
+      ]
+    }
+  ]
+
+
+
+  },
+ "contact": {
+  "title": "İletişim",
+  "description": "Benimle iletişime geçmek isterseniz, aşağıdaki bilgileri kullanabilirsiniz:",
+  "email": "E-posta",
+  "socialMessage": "Veya sosyal medya üzerinden bana ulaşabilirsiniz:",
+  "formTitle": "Bana Mesaj Gönderin",
+  "namePlaceholder": "Adınız",
+  "emailPlaceholder": "E-posta Adresiniz",
+  "messagePlaceholder": "Mesajınız",
+  "send": "Gönder",
+  "successTitle": "Mesaj Gönderildi!",
+  "successMessage": "Mesajınızı aldım, en kısa sürede size geri döneceğim. Teşekkürler!"
+},
+"footer": {
+  "rights": "Tüm hakları saklıdır."
+}
+}

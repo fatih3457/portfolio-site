@@ -1,0 +1,103 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "cv": "CV"
+    },
+  "home": {
+    "name": "Fatih Özcan",
+    "title": "FullStack Developer",
+    "skills": "JAVA || SPRING BOOT || REACTJS",
+    "button": "View My Work"
+  },
+  "about": {
+  "paragraphs": [
+    "I graduated in Computer Programming and Management Information Systems.",
+    "I aim to become a Software Developer with a willingness to learn new technologies and strong analytical thinking skills.",
+    "I continuously improve myself in Java, Spring Boot, and ReactJS.",
+    "I strive to add value to the software industry as a team player with strong communication skills and a focus on continuous learning and development."
+  ]
+},
+  "projects": {
+  "title": "Projects, Works, Practices",
+  "items": [
+    {
+      "title": "Simple REST API with Java & Spring Boot",
+      "description": "In this project, I developed a REST API using Java and Spring Boot to perform basic CRUD operations.",
+      "tech": "Technologies: Java 17, Spring Boot, H2 Database, Maven",
+      "links": [
+        { "label": "View on GitHub", "url": "https://github.com/fatih3457/springboot-person-api" }
+      ]
+    },
+    {
+      "title": "📚 Library Management System",
+      "description": "A full-stack library management system with backend built in Java Spring Boot and frontend in ReactJS. Includes add, delete, update, search, and pagination features.",
+      "tech": "Technologies: Java, Spring Boot, ReactJS, Tailwind, Axios",
+      "links": [
+        { "label": "Backend GitHub", "url": "https://github.com/fatih3457/library-api" },
+        { "label": "Frontend GitHub", "url": "https://github.com/fatih3457/library-frontend" }
+      ]
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "A single-page portfolio site developed with ReactJS and Tailwind CSS. Designed to showcase my frontend skills.",
+      "tech": "Technologies: ReactJS, Vite, Tailwind CSS, JavaScript",
+      "links": [
+        { "label": "View on GitHub", "url": "https://github.com/fatih3457/portfolio-site" }
+      ]
+    },
+    {
+      "title": "Java Practices",
+      "description": "Projects I built while learning Java.",
+      "tech": "Technologies: Java",
+      "links": [
+        { "label": "View on GitHub", "url": "https://github.com/fatih3457/java-practices" }
+      ]
+    },
+    {
+      "title": "JavaScript Practices",
+      "description": "Projects I built while learning JavaScript.",
+      "tech": "Technologies: JavaScript, CSS, HTML",
+      "links": [
+        { "label": "View on GitHub", "url": "https://github.com/fatih3457/js-projects" }
+      ]
+    },
+    {
+      "title": "ReactJS Practices",
+      "description": "Projects I built while learning ReactJS.",
+      "tech": "Technologies: ReactJS, CSS, HTML",
+      "links": [
+        { "label": "View on GitHub", "url": "https://github.com/fatih3457/react-Projects" }
+      ]
+    },
+    {
+      "title": "Bootstrap Medium Clone",
+      "description": "A Medium-style clone project built with Bootstrap.",
+      "tech": "Technologies: JavaScript, CSS, HTML",
+      "links": [
+        { "label": "View on GitHub", "url": "https://github.com/fatih3457/bootstrap-medium-clone" }
+      ]
+    }
+  ]
+
+  },
+  "contact": {
+  "title": "Contact",
+  "description": "If you’d like to get in touch with me, you can use the information below:",
+  "email": "Email",
+  "socialMessage": "Or you can reach me via social media:",
+  "formTitle": "Send Me a Message",
+  "namePlaceholder": "Your Name",
+  "emailPlaceholder": "Your Email Address",
+  "messagePlaceholder": "Your Message",
+  "send": "Send",
+  "successTitle": "Message Sent!",
+  "successMessage": "I received your message and will get back to you as soon as possible. Thank you!"
+},
+    "footer": {
+        "rights": "All rights reserved."
+    }
+
+}

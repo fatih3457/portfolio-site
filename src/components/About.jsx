@@ -1,34 +1,39 @@
+import { useTranslation } from 'react-i18next';
 import about2Img from '/src/assets/about2.jpeg';
 
 function About({ triggerAnimation }) {
+  const { t } = useTranslation();
+  const paragraphs = t('about.paragraphs', { returnObjects: true });
+
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-2">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center px-4">
       <div
-        className={`mt-10 max-w-4xl mx-auto flex flex-col md:flex-row items-center bg-white p-4 sm:p-6 rounded-lg shadow-lg ${
+        className={`w-full max-w-5xl bg-white dark:bg-gray-800 p-8 md:p-12 rounded-3xl shadow-2xl flex flex-col md:flex-row gap-8 ${
           triggerAnimation ? 'animate-slide-up' : ''
         }`}
       >
-        <img
-          src={about2Img}
-          alt="Hakkımda Resmi"
-          className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-lg object-cover mb-6 md:mb-0"
-        />
-        <div
-          className={`md:ml-6 w-full text-left ${triggerAnimation ? 'animate-slide-left' : ''}`}
-        >
-          <div className="bg-gradient-to-r from-blue-50 to-gray-100 p-4 sm:p-6 rounded-lg shadow-md space-y-3">
-            <p className="text-base sm:text-lg font-semibold italic text-blue-700">
-              Bilgisayar Programcılığı ve Yönetim Bilişim Sistemleri mezunuyum.
-            </p>
-            <p className="text-base sm:text-lg font-semibold italic text-blue-700">
-              Yeni teknolojileri öğrenmeye istekli, analitik düşünme becerilerine sahip bir Yazılım Geliştiricisisi olmayı hedefliyorum.
-            </p>
-            <p className="text-base sm:text-lg font-semibold italic text-blue-700">
-              Java, Spring Boot ve ReactJS konularında kendimi sürekli geliştiriyorum.
-            </p>
-            <p className="text-base sm:text-lg font-semibold italic text-blue-700">
-              Takım çalışmasına uygun, güçlü iletişim becerilerine sahip, sürekli öğrenmeye açık ve gelişime odaklanmış biri olarak yazılım sektöründe değer katmayı hedefliyorum.
-            </p>
+        {/* Görsel */}
+        <div className="md:w-1/3 flex justify-center items-start">
+          <img
+            src={about2Img}
+            alt="About"
+            className="rounded-2xl shadow-lg w-full max-w-sm hover:scale-105 transition duration-500"
+          />
+        </div>
+
+        {/* Yazılar */}
+        <div className="md:w-2/3 space-y-6">
+          <div className="space-y-4 bg-blue-50 dark:bg-gray-700 p-6 rounded-2xl shadow-md">
+            {paragraphs.map((p, i) => (
+              <p
+                key={i}
+                className={`text-gray-800 dark:text-gray-200 leading-relaxed font-medium ${
+                  triggerAnimation ? `animate-fade-in animation-delay-${i * 200}` : ''
+                }`}
+              >
+                {p}
+              </p>
+            ))}
           </div>
         </div>
       </div>

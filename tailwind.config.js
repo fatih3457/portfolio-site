@@ -6,3 +6,12 @@ export default {
   },
   plugins: [],
 };
+
+module.exports = {
+  darkMode: 'class', // 'media' değil, 'class' olacak
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
