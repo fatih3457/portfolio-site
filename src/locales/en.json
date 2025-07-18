@@ -24,6 +24,14 @@
   "title": "Projects, Works, Practices",
   "items": [
     {
+      "title": "Library Application (Full-Stack)",
+      "description": "This project is a modern web application developed using Spring Boot (Backend) and React (Frontend), featuring a JWT-based authentication system. It provides a platform where users can register and log in, and perform CRUD operations on books in a shared library.",
+      "tech": "Technologies: Java 17, Spring Boot, Maven, Hibernate, PostgreSQL, jjwt, ReactJS, Vite, Tailwind CSS, Axios, Bootstrap 5",
+      "links": [
+        { "label": "View on GitHub", "url": "https://github.com/fatih3457/kitaplik-uygulamasiq" }
+      ]
+    },
+    {
       "title": "Simple REST API with Java & Spring Boot",
       "description": "In this project, I developed a REST API using Java and Spring Boot to perform basic CRUD operations.",
       "tech": "Technologies: Java 17, Spring Boot, H2 Database, Maven",

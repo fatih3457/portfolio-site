@@ -25,6 +25,14 @@
   "title": "Projeler, Çalışmalar, Pratikler",
   "items": [
     {
+      "title": "Kitaplık Uygulaması (Full-Stack)",
+      "description": "Bu proje, Spring Boot (Backend) ve React (Frontend) kullanılarak geliştirilmiş, JWT tabanlı kimlik doğrulama sistemine sahip modern bir web uygulamasıdır. Kullanıcıların kayıt olup giriş yapabildiği ve ortak bir kitaplıkta kitap ekleme, listeleme, güncelleme ve silme (CRUD) işlemlerini gerçekleştirebildiği bir platform sunar.",
+      "tech": "Teknolojiler: Java 17, Spring Boot, Maven, Hibernate, PostgreSQL, jjwt, ReactJS, Vite, Tailwind CSS, Axios, Bootstrap 5",
+      "links": [
+        { "label": "GitHub’da Gör", "url": "https://github.com/fatih3457/kitaplik-uygulamasi" }
+      ]
+    },
+    {
       "title": "Java & Spring Boot ile Basit REST API",
       "description": "Bu projede Java ve Spring Boot kullanarak temel CRUD işlemlerini gerçekleştiren bir REST API geliştirdim.",
       "tech": "Teknolojiler: Java 17, Spring Boot, H2 Database, Maven",
