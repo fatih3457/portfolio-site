@@ -25,6 +25,15 @@
   "title": "Projeler, Çalışmalar, Pratikler",
   "items": [
     {
+      "title": "İSKİ Baraj Takip Uygulaması (Full-Stack)",
+      "description": "İSKİ’nin kamuya açık baraj doluluk verilerini kullanarak, Spring Boot (Backend) + Flutter (Mobil) + AWS (Deployment) üçlüsüyle tam bir Full Stack proje geliştirdim.Uygulama sayesinde İstanbul’daki barajların güncel doluluk oranlarını takip etmek mümkün.",
+      "tech": "Teknolojiler: Java 17, Spring Boot, Maven, Flutter, Dart, AWS EC2, AWS RDS, CI/CD",
+      "links": [
+        { "label": "Backend GitHub", "url": "https://github.com/fatih3457/iski-radar-api" },
+        { "label": "Frontend GitHub", "url": "https://github.com/fatih3457/iski-radar-mobile"}
+      ]
+    },
+    {
       "title": "Kitaplık Uygulaması (Full-Stack)",
       "description": "Bu proje, Spring Boot (Backend) ve React (Frontend) kullanılarak geliştirilmiş, JWT tabanlı kimlik doğrulama sistemine sahip modern bir web uygulamasıdır. Kullanıcıların kayıt olup giriş yapabildiği ve ortak bir kitaplıkta kitap ekleme, listeleme, güncelleme ve silme (CRUD) işlemlerini gerçekleştirebildiği bir platform sunar.",
       "tech": "Teknolojiler: Java 17, Spring Boot, Maven, Hibernate, PostgreSQL, jjwt, ReactJS, Vite, Tailwind CSS, Axios, Bootstrap 5",

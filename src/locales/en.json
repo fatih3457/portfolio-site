@@ -24,6 +24,15 @@
   "title": "Projects, Works, Practices",
   "items": [
     {
+      "title": "İSKİ Dam Tracking Application (Full-Stack)",
+      "description": "Using İSKİ's publicly available dam occupancy data, I developed a full stack project with the trio of Spring Boot (Backend) + Flutter (Mobile) + AWS (Deployment). Thanks to the application, it is possible to track the current occupancy rates of dams in Istanbul.",
+      "tech": "Technologies: Java 17, Spring Boot, Maven, Flutter, Dart, AWS EC2, AWS RDS, CI/CD",  
+      "links": [
+        { "label": "Backend GitHub", "url": "https://github.com/fatih3457/iski-radar-api" },
+        { "label": "Frontend GitHub", "url": "https://github.com/fatih3457/iski-radar-mobile"}
+      ]
+    },
+    {
       "title": "Library Application (Full-Stack)",
       "description": "This project is a modern web application developed using Spring Boot (Backend) and React (Frontend), featuring a JWT-based authentication system. It provides a platform where users can register and log in, and perform CRUD operations on books in a shared library.",
       "tech": "Technologies: Java 17, Spring Boot, Maven, Hibernate, PostgreSQL, jjwt, ReactJS, Vite, Tailwind CSS, Axios, Bootstrap 5",
