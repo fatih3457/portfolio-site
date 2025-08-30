@@ -1,12 +1,14 @@
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import profilImg from '/src/assets/profil.jpeg';
+import AnimatedBackground from './AnimatedBackground';
 
 function Home({ scrollToSection, triggerAnimation }) {
   const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center px-4">
+     <AnimatedBackground />
       <div className="text-center w-full">
         {/* Profil Görseli */}
         <img

@@ -57,6 +57,7 @@ function App() {
           darkMode={darkMode}
           setDarkMode={setDarkMode}
         />
+
         <section id="home" className="mt-4">
           <Home
             scrollToSection={scrollToSection}
