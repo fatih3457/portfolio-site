@@ -2,11 +2,12 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const words = [
-  "Java", "Spring Boot", "React", "REST API",
-  "Javascript", "Flutter", "Dart", "OOP", "AWS",
-  "Microservices", "CI/CD", "MySQL", "PostgreSQL",
-  "Git", "Github", "Kubernetes", "NoSQL",
+  "Java", "Spring Boot", "React", "REST API", "#OPEN TO WORK",
+  "Javascript", "Flutter", "Dart", "OOP", "AWS", "#LOOKING FOR A JOB",
+  "Microservices", "CI/CD", "MySQL", "PostgreSQL", "#MAAŞ ÖNEMLİ DEĞİL",
+  "Git", "Github", "Kubernetes", "NoSQL", "#İŞ ARIYORUM", "#SALARY IS NOT IMPORTANT",
 ];
+
 
 export default function AnimatedBackground() {
   const [items, setItems] = useState([]);
